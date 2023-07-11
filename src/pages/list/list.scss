@@ -1,0 +1,13 @@
+.list {
+	display: flex;
+	padding: 20px;
+
+	.listContainer {
+		flex: 6;
+		// padding-bottom: 20px;
+
+		.datatables {
+			padding-top: 20px;
+		}
+	}
+}

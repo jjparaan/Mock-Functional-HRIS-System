@@ -1,0 +1,94 @@
+:root {
+	--primary: #e6d4a3;
+	--primary-font: #1c1c1e;
+
+	--secondary: #b4a261;
+	--secondary-font: #fff;
+
+	--light-mode: #f2f2f7;
+	--dark-mode: #1c1c1e;
+}
+
+.app {
+	background-color: var(--light-mode);
+	min-height: 100vh;
+	min-width: 1440px;
+	overflow: hidden;
+}
+
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root {
+	.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+		background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+	}
+}
+
+.dark {
+	background-color: var(--dark-mode);
+
+	.sidebar {
+		background: linear-gradient(to top, #ffffff, #aaa1a1);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	.navbar {
+		background: linear-gradient(to left, #ffffff, #aaa1a1);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	.hide {
+		border: none;
+
+		.top {
+			border: none;
+		}
+	}
+
+	.modal {
+		.icon {
+			cursor: pointer;
+			color: var(--secondary-font);
+		}
+	}
+
+	.widget {
+		background: linear-gradient(to left, #ffffff, #aaa1a1);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	.graphs {
+		.graph {
+			background: linear-gradient(to left, #ffffff, #aaa1a1);
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	.mtable {
+		.MuiPaper-root {
+			background: linear-gradient(to bottom, #ffffff, #aaa1a1);
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+			color: var(--primary-font);
+		}
+	}
+
+	.datatables {
+		.datatable {
+			.dx-datagrid {
+				background: linear-gradient(to left, #ffffff, #aaa1a1);
+				box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3),
+					0px 2px 8px rgba(0, 0, 0, 0.2);
+				color: var(--primary-font);
+			}
+		}
+
+		.employeeInfo {
+			background: linear-gradient(to bottom, #ffffff, #aaa1a1);
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+		}
+
+		.userinfo {
+			background: linear-gradient(to left, #ffffff, #aaa1a1);
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 0px 2px 8px rgba(0, 0, 0, 0.2);
+		}
+	}
+}

@@ -1,0 +1,105 @@
+.graph {
+	padding: 20px;
+	background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+	border-radius: 10px;
+
+	.dx-widget {
+		margin-bottom: 15px;
+	}
+
+	#barChart {
+		svg {
+			.dxc-grids-group {
+				.dxc-val-grid {
+					path {
+						stroke: rgb(155, 152, 152);
+					}
+				}
+			}
+			.dxc-axes-group {
+				.dxc-val-axis {
+					.dxc-val-line {
+						path {
+							stroke: rgb(118, 118, 118);
+						}
+					}
+					.dxc-val-title {
+						text {
+							fill: var(--primary-font) !important;
+						}
+					}
+				}
+				.dxc-arg-axis {
+					.dxc-arg-line {
+						path {
+							stroke: rgb(118, 118, 118);
+						}
+					}
+					.dxc-arg-title {
+						text {
+							fill: var(--primary-font) !important;
+						}
+					}
+				}
+			}
+			// .dxc-series-group {
+			// 	.dxc-series {
+			// 		g {
+			// 			fill: rgb(28, 28, 30);
+			// 			stroke: rgb(28, 28, 30);
+
+			// 			rect {
+			// 				cursor: pointer;
+			// 			}
+			// 		}
+			// 	}
+			// }
+			.dxc-elements-axes-group {
+				.dxc-val-elements,
+				.dxc-arg-elements {
+					text {
+						fill: var(--primary-font) !important;
+					}
+				}
+			}
+		}
+	}
+
+	.sort {
+		margin-top: 20px;
+		padding-left: 20px;
+
+		.MuiFormControl-root {
+			width: 100%;
+			margin-bottom: 10px;
+
+			#demo-radio-buttons-group-label {
+				display: none;
+			}
+
+			.MuiFormGroup-root {
+				flex-direction: row;
+				justify-content: flex-end;
+				gap: 10px;
+
+				.MuiFormControlLabel-root {
+					.MuiButtonBase-root {
+						display: none;
+					}
+					.MuiTypography-root {
+						.barIcon {
+							color: rgb(96, 166, 159);
+						}
+						.pieIcon {
+							color: rgb(163, 113, 130);
+						}
+						.doughnutIcon {
+							color: rgb(102, 130, 187);
+						}
+					}
+				}
+			}
+		}
+	}
+}

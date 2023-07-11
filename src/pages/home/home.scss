@@ -1,0 +1,45 @@
+.home {
+	display: flex;
+	padding: 20px;
+	position: relative;
+
+	.homeContainer {
+		flex: 6;
+
+		.widgets {
+			display: flex;
+			gap: 20px;
+			padding-top: 20px;
+		}
+
+		.graphs {
+			padding-top: 20px;
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			grid-template-areas:
+				"department department department salary salary salary"
+				"status status gender gender position position";
+			grid-gap: 20px;
+
+			.department {
+				grid-area: department;
+			}
+			.salary {
+				grid-area: salary;
+			}
+			.position {
+				grid-area: position;
+			}
+			.status {
+				grid-area: status;
+			}
+			.gender {
+				grid-area: gender;
+			}
+		}
+
+		.mtables {
+			padding-top: 20px;
+		}
+	}
+}

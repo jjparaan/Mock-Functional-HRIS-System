@@ -1,0 +1,12 @@
+.single {
+	display: flex;
+	padding: 20px;
+
+	.singleContainer {
+		flex: 6;
+
+		.usersInformation {
+			padding-top: 20px;
+		}
+	}
+}
